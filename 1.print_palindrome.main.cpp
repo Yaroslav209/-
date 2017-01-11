@@ -28,7 +28,7 @@ bool palindrom(int a){
 	return result;
 }
 void print_palindrom(int n){
-	for(int i == pow(10, n)+ 8; i < pow(10, n + 1); i += 9){
+	for(int i = pow(10, n)+ 8; i < pow(10, n + 1); i += 9){
 		if(palindrom(i))
 		cout << i;
 	}
