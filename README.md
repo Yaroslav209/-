@@ -2,6 +2,7 @@
 #include <vector>
 #include <cmath>
 #include <algorithm>
+using namespace std;
 bool palindrom(int a){
 	// является ли число палиндромом?
 	int n=1;
